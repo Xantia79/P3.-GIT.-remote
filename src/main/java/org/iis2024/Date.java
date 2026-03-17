@@ -19,6 +19,8 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
+   // Contributor: adds a new variable that says if its a leap year
+  private boolean isLeapYear;
 
   /**
    * Retrieves the day component of this date.
