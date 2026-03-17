@@ -84,4 +84,10 @@ public class Date {
       return false;
     }
   }
+
+    // Owner: adds method that prints the date
+  public void printDate() {
+      System.out.println(day + "/" + month + "/" + year);
+  }
+
 }
